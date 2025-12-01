@@ -1,6 +1,6 @@
 # silenceEraser — Automated Silence Removal for Speech & Audio
 
-![License MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+[![License MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2023b%2B-orange?style=flat-square)
 ![DSP](https://img.shields.io/badge/DSP-Silence%20Detection%20%26%20Gating-blue?style=flat-square)
 ![Audio Editing](https://img.shields.io/badge/Audio%20Editing-Silence%20Removal-lightgrey?style=flat-square)
