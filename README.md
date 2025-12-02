@@ -52,4 +52,20 @@ sound(y, fs);
 This project demonstrates implementation of DSP algorithms from first principles, without relying on built-in audio cleanup tools. It reflects skills 
 relevant to audio software engineering, plugin development, adaptive/interactive audio systems, and machine-learning preprocessing pipelines.
 
+---
+
+## Requirements
+
+- MATLAB R2023b or later
+- Audio Toolbox recommended
+- Tested using:
+  - N = 1024
+  - hop = 512
+  - Mono .wav input (44.1 kHz)
+  - Amplitude threshold: –35 dB (suggested starting point)
+- Threshold values between –25 dB and –45 dB work well for most voice recordings.
+ 
+---
+© Henry Powell — Audio DSP Development
+
   
