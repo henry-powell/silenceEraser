@@ -1,9 +1,10 @@
 # silenceEraser — Automated Silence Removal for Speech & Audio
 
-[![License MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-![MATLAB](https://img.shields.io/badge/MATLAB-R2023b%2B-orange?style=flat-square)
-![DSP](https://img.shields.io/badge/DSP-Silence%20Detection%20%26%20Gating-blue?style=flat-square)
-![Audio Editing](https://img.shields.io/badge/Audio%20Editing-Silence%20Removal-lightgrey?style=flat-square)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![MATLAB](https://img.shields.io/badge/MATLAB-R2023b%2B-orange.svg)](https://www.mathworks.com/products/matlab.html)
+[![Audio DSP](https://img.shields.io/badge/Focus-Audio%20DSP-blue.svg)](#)
+![Portfolio Project](https://img.shields.io/badge/Project-Type%3A%20Portfolio-0057b7.svg)
+[![Silence Detection](https://img.shields.io/badge/Topic-Silence%20Detection%20%26%20Gating-9cf.svg)](#)
 ![Audio Toolbox](https://img.shields.io/badge/Audio%20Toolbox-Enabled-purple.svg)
 ![Grad Program](https://img.shields.io/badge/Grad_Program-Audio_Technology_(M.A.)-6a1b9a.svg)
 ![University](https://img.shields.io/badge/American_University-Washington,_DC-002855.svg)
