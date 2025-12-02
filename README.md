@@ -42,6 +42,28 @@ sound(y, fs);
 
 ---
 
+## How to Use
+1. Set the target audio file inside the script:
+   ```matlab
+   fileName = "yourAudio.wav";
+   ```
+2.	Modify the frame length and hop size if needed:
+    ```
+    N = 1024;
+    hop = 512;
+3.	Run the script. The silenceEraser function will:
+      - split the audio into frames,
+      - compute frame-level energy values,
+      - identify silence based on a threshold,
+      - remove silent frames automatically.
+4.	Optional tuning:
+      - lower the silence threshold for soft speech / whisper content
+      - increase the threshold for noisy room recordings
+5.	Listen to the output or export to disk depending on your implementation (e.g., audiowrite() or sound()).
+
+---
+
+
 ### Development Environment
 - MATLAB R2025a Update 1 (64-bit, macOS)
 - Audio Toolbox enabled
@@ -65,6 +87,17 @@ relevant to audio software engineering, plugin development, adaptive/interactive
   - Amplitude threshold: –35 dB (suggested starting point)
 - Threshold values between –25 dB and –45 dB work well for most voice recordings.
  
+---
+
+## Real-World Applications
+- **Podcast & voiceover production** — removes long pauses automatically and speeds up editing time.
+- **Audiobook mastering** — tightens pacing while preserving natural conversational flow.
+- **Film & TV post-production** — clears dead room tone between dialogue lines before EQ and compression.
+- **Broadcast / livestream workflows** — prevents “dead air” during interviews or commentary segments.
+- **Speech analytics / call-center audio** — trims silent segments before running speech-to-text analysis.
+- **Machine learning / AI training datasets** — cleans and normalizes speech samples before model training.
+- **Accessibility tools** — improves clarity of synthesized speech segments used in assistive technologies.
+
 ---
 © Henry Powell — Audio DSP Development
 
